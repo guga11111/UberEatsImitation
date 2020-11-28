@@ -1,0 +1,82 @@
+.UberAnimation1{
+  height: 70%;
+  width: 50%;
+  margin-top: -11%;
+  margin-left: -10%;
+  margin-right: 30;
+}
+.UberAnimation2{
+  height: 70%;
+  width: 50%;
+  margin-top: -11%;
+  margin-left: 10%;
+}
+.banner{
+  width: 100%;
+  height: 40%;
+  background-color: #ffd7d2;
+}
+.title{
+  font-size: 36px;
+  color: black;
+  margin-top: -400px;
+  margin-left: 28.5%;
+  font-weight: bold;
+  font-style: sans-serif;
+}
+.food{
+  margin-top: 50px;
+  margin-left: 26.5%;
+  border: 0;
+  border-bottom: black;
+  font-family: inherit;
+  width: 540px;
+  background-color: white;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  height: 56px;
+  background: white;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: gray;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    cursor: text;
+    top: 20px;
+  }
+
+}
+.Insertar{
+  color: white;
+  font-family: inherit;
+  background: black;
+  border: none;
+  font-style: arial;
+  width: 150px;
+  border-radius: 2px;
+  margin-left: 1%;
+  height: 56px;
+}
+.Food{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.subtitle{
+  font-size: 36px;
+  color: black;
+  margin-top: 300px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-style: normal;
+}
+.image{
+  width: 100%;
+  height: 200px;
+}
+
+

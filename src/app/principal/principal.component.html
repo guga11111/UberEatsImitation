@@ -1,0 +1,23 @@
+<div>
+<div class="banner">
+
+  <img class="UberAnimation1" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/888df3a5d5856d904beb35fcafd455e5.svg" alt="">
+  <img class="UberAnimation2" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/43ba3b936ba5057274696fe1c6194b57.svg" alt="">
+</div>
+    <h1 class="title">Tu comida favorita, a la velocidad de Uber
+</h1>
+    <input placeholder="Ingresa la dirección de entrega" class="food" type="text">
+    <button class="Insertar">Buscar Comida</button>
+</div>
+    <h1 class="subtitle">Comida cerca de mí</h1>
+
+<div class="row">
+<div *ngFor="let res of (this.food$ | async)"  class="col-4" style="width: 100%;">
+<div class="card  Food"  style="width: 18rem;">
+  <img src="{{ res.image }}" class="card-img-top  image" alt="...">
+  <div class="card-body">
+    <p class="card-text">{{ res.name }}</p>
+  </div>
+</div>
+</div>
+</div>
